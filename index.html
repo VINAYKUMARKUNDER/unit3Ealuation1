@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Data</title>
     <style>
+
+      body{
+        width: 90%;
+      }
       #form{
         width: 25%;
         margin: auto;
@@ -38,6 +42,28 @@
         background-color: blue;
         cursor: pointer;
         border: none;
+      }
+
+
+
+      @media all and (min-width:50px) and (max-width:450px) {
+        body{
+          width: 99%;
+        }
+        #form{
+        width: 90%;
+      }
+      }
+
+      @media all and (min-width:451px) and (max-width:750px) {
+        body{
+          width: 100%;
+        }
+        #form{
+        width: 70%;
+       ;
+      }
+
       }
     </style>
   </head>
